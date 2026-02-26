@@ -1,13 +1,12 @@
-from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
-import pandas as pd
+import numpy as np
 
-def evaluate_model(y_true, y_pred):
-    return {
-        'Accuracy': accuracy_score(y_true, y_pred),
-        'Precision': precision_score(y_true, y_pred, average='macro'),
-        'Recall': recall_score(y_true, y_pred, average='macro'),
-        'F1-Score': f1_score(y_true, y_pred, average='macro')
-    }
-
-def save_metrics_to_csv(metrics_dict, filename):
-    pd.DataFrame([metrics_dict]).to_csv(filename, index=False)
+np.random.seed(42)  # For reproducibility
+n_samples = 2000
+n_features = 12
+X = np.random.randn(n_samples, n_features)  # Normally distributed features
+# Hidden rule: class 1 if sum of first 5 features > 0, else 0
+y = (np.sum(X[:, :5], axis=1) > 0).astype(int)
+# Add noise: flip 10% of labels
+noise_indices = np.random.choice(n_samples, size=int(n_samples * 0.1), replace=False)
+y[noise_indices] = 1 - y[noise_indices]
+# Save to CSV if needed: np.savetxt('synthetic_dataset.csv', np.c_[X, y], delimiter=',')# Experiment utility functions placeholder

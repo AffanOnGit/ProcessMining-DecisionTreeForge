@@ -33,7 +33,11 @@ ProcessMining-DecisionTreeForge/
 ├── results/                  # Generated CSV output files containing benchmarking metrics
 │
 ├── src/
-│   └── decision_tree.py      # The CORE implementation of the custom Decision Tree
+│   ├── decision_tree.py      # The CORE implementation of the custom Decision Tree
+│   └── pattern_mining/       # Brute Force & Apriori pattern mining on Adult dataset
+│       ├── adult_loader.py   # Loads Adult Census as transactions (column=value)
+│       ├── brute_force.py    # Brute-force frequent itemset mining
+│       └── apriori.py        # Apriori frequent itemset mining
 │
 ├── requirements.txt          # Required Python packages
 └── README.md                 # This file
@@ -120,3 +124,54 @@ If you want to test the algorithms sequentially or avoid datasets you haven't do
 
 ### Viewing Results
 After execution, the terminal will print dictionaries summarizing the performance (Accuracy, Precision, Recall, F1-Score). You can also find persistent copies of this data written to `results/` (e.g., `metrics_adult_scratch.csv`, `metrics_adult_sk.csv`).
+
+---
+
+## 🧩 Pattern Mining on Adult Dataset (Brute Force & Apriori)
+
+In addition to the decision tree classifier, this repository now includes two classic pattern-mining algorithms implemented from scratch and applied to the **Adult Census Income** dataset:
+
+- **Brute Force frequent itemset mining** – exhaustively enumerates candidate itemsets and counts their support.
+- **Apriori frequent itemset mining** – efficiently grows itemsets level-wise using the Apriori pruning principle.
+
+Both algorithms operate on a transactional representation of the Adult dataset, where each row is converted into a set of interpretable items of the form `"column=value"` (e.g., `"education=Bachelors"`, `"sex= Male"`). The helper module `src/pattern_mining/adult_loader.py` fetches the Adult data from the original UCI URL and constructs these transactions.
+
+### Loading Adult as Transactions
+
+```python
+from src.pattern_mining.adult_loader import load_adult_transactions
+
+transactions = load_adult_transactions()  # optional row limit via `limit=` if needed
+```
+
+### Running Brute Force
+
+```python
+from src.pattern_mining.brute_force import brute_force_frequent_itemsets
+
+transactions = load_adult_transactions()
+frequent_bf = brute_force_frequent_itemsets(
+  transactions,
+  min_support=0.1,   # 10% relative support
+  max_length=2,      # up to pairs of items
+)
+
+# Example: print top 10 patterns by support
+for items, support in sorted(frequent_bf.items(), key=lambda x: -x[1])[:10]:
+  print(set(items), support)
+```
+
+### Running Apriori
+
+```python
+from src.pattern_mining.apriori import apriori_frequent_itemsets
+
+transactions = load_adult_transactions()
+frequent_ap = apriori_frequent_itemsets(
+  transactions,
+  min_support=0.1,
+  max_length=3,
+)
+```
+
+Both functions return a dictionary mapping `frozenset({"item1", "item2", ...})` to its **relative support** in the dataset. These frequent itemsets can be interpreted as discovered patterns in the Adult Census data and can be further extended to association rules if needed.

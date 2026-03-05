@@ -1,0 +1,33 @@
+Decision Trees: Implementation  & 
+Analysis 
+Course: Process Mining and Simulation 
+Group Size: 4 Students 
+Deadline: 20th February 2026 
+Total Marks: 50 
+Assignment Overview 
+This is a coding -intensive group assignment. Students must implement a Decision Tree 
+classifier completely from scratch and perform advanced theoretical analysis. 
+Core Requirements- [25 Marks] 
+• Implement Decision Tree from scratch (No sklearn tree for core logic). [5 Marks] 
+• Support Entropy and Information Gain. [5 Marks] 
+• Handle continuous features using optimal threshold search. [5 Marks] 
+• Handle missing values. [5 Marks] 
+• Compare results with sklearn DecisionTreeClassifier. [5 Marks] 
+Group Role Distribution (Compulsory): 
+In your report, mention the tasks performed by each member of the group.  
+Datasets- [20 Marks] 
+Each group must use: 
+• One real-world dataset (1000+ instances, 10+ features). 
+• One synthetic dataset (with noise). 
+• One highly imbalanced dataset. 
+Evaluation Metrics- [5 Marks] 
+• Accuracy 
+• Precision 
+• Recall 
+• F1-score 
+Deliverables 
+• Technical report with code and comparison analysis. 
+• Individual contribution section. 
+Plagiarism Policy 
+Any similarity in core implementation across groups will result in zero marks. All groups 
+must demonstrate original work during demo. 

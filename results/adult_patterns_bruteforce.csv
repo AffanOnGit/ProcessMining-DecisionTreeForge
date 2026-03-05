@@ -1,0 +1,249 @@
+algorithm,pattern,length,support
+brute_force,native-country=United-States,1,0.911875870300378
+brute_force,race=White,1,0.8597904648232876
+brute_force,native-country=United-States & race=White,2,0.8029308401299649
+brute_force,income=<=50K,1,0.7510775147536636
+brute_force,workclass=Private,1,0.7388767323121809
+brute_force,income=<=50K & native-country=United-States,2,0.6799615410118692
+brute_force,sex=Male,1,0.6756846362973278
+brute_force,native-country=United-States & workclass=Private,2,0.6675618327697103
+brute_force,race=White & workclass=Private,2,0.6344738412572111
+brute_force,income=<=50K & race=White,2,0.6330482063523639
+brute_force,native-country=United-States & sex=Male,2,0.6157416616935216
+brute_force,race=White & sex=Male,2,0.5980372654333267
+brute_force,native-country=United-States & race=White & workclass=Private,3,0.587759432398382
+brute_force,income=<=50K & native-country=United-States & race=White,3,0.5861348716928586
+brute_force,income=<=50K & workclass=Private,2,0.5772163649625356
+brute_force,native-country=United-States & race=White & sex=Male,3,0.5585836482991844
+brute_force,income=<=50K & native-country=United-States & workclass=Private,3,0.5170081559578277
+brute_force,income=<=50K & race=White & workclass=Private,3,0.4863735826536702
+brute_force,sex=Male & workclass=Private,2,0.4855115708507393
+brute_force,marital-status=Married-civ-spouse,1,0.4663152310854718
+brute_force,income=<=50K & sex=Male,2,0.4636297327763411
+brute_force,native-country=United-States & sex=Male & workclass=Private,3,0.4379351501889795
+brute_force,race=White & sex=Male & workclass=Private,3,0.428486174656853
+brute_force,marital-status=Married-civ-spouse & native-country=United-States,2,0.4243087328426497
+brute_force,marital-status=Married-civ-spouse & race=White,2,0.4196008222266428
+brute_force,income=<=50K & native-country=United-States & sex=Male,3,0.41777733572044295
+brute_force,marital-status=Married-civ-spouse & sex=Male,2,0.4172468669186393
+brute_force,relationship=Husband,1,0.41320204230488694
+brute_force,relationship=Husband & sex=Male,2,0.4131688880047742
+brute_force,marital-status=Married-civ-spouse & relationship=Husband,2,0.41290365360387243
+brute_force,marital-status=Married-civ-spouse & relationship=Husband & sex=Male,3,0.4128704993037597
+brute_force,income=<=50K & race=White & sex=Male,3,0.40348783237185865
+brute_force,marital-status=Married-civ-spouse & native-country=United-States & race=White,3,0.39301107353623765
+brute_force,marital-status=Married-civ-spouse & native-country=United-States & sex=Male,3,0.3812081426961077
+brute_force,marital-status=Married-civ-spouse & race=White & sex=Male,3,0.3784894900868643
+brute_force,native-country=United-States & relationship=Husband,2,0.37845633578675153
+brute_force,native-country=United-States & relationship=Husband & sex=Male,3,0.37842318148663884
+brute_force,marital-status=Married-civ-spouse & native-country=United-States & relationship=Husband,3,0.378157947085737
+brute_force,race=White & relationship=Husband,2,0.37540614017638085
+brute_force,race=White & relationship=Husband & sex=Male,3,0.37537298587626816
+brute_force,marital-status=Married-civ-spouse & race=White & relationship=Husband,3,0.37510775147536635
+brute_force,native-country=United-States & race=White & relationship=Husband,3,0.3527949074995027
+brute_force,income=<=50K & sex=Male & workclass=Private,3,0.34775545388236856
+brute_force,education=HS-grad,1,0.32623831310921025
+brute_force,sex=Female,1,0.3243153637026722
+brute_force,marital-status=Never-married,1,0.3224587228963597
+brute_force,marital-status=Married-civ-spouse & workclass=Private,2,0.31662356607652015
+brute_force,income=<=50K & marital-status=Never-married,2,0.3068762018433791
+brute_force,education=HS-grad & native-country=United-States,2,0.305317949738081
+brute_force,native-country=United-States & sex=Female,2,0.2961342086068563
+brute_force,marital-status=Never-married & native-country=United-States,2,0.2942775678005437
+brute_force,income=<=50K & sex=Female,2,0.28744778197732246
+brute_force,marital-status=Married-civ-spouse & native-country=United-States & workclass=Private,3,0.2848285922684172
+brute_force,marital-status=Married-civ-spouse & race=White & workclass=Private,3,0.28380080896492277
+brute_force,marital-status=Married-civ-spouse & sex=Male & workclass=Private,3,0.2820104767588356
+brute_force,income=<=50K & marital-status=Never-married & native-country=United-States,3,0.2796565214508322
+brute_force,relationship=Husband & workclass=Private,2,0.2788608182481268
+brute_force,relationship=Husband & sex=Male & workclass=Private,3,0.27882766394801406
+brute_force,marital-status=Married-civ-spouse & relationship=Husband & workclass=Private,3,0.27866189244745043
+brute_force,education=HS-grad & race=White,2,0.27852927524699955
+brute_force,education=HS-grad & income=<=50K,2,0.2726278098269346
+brute_force,marital-status=Never-married & race=White,2,0.26642795570585504
+brute_force,marital-status=Never-married & workclass=Private,2,0.2660632584046151
+brute_force,education=HS-grad & native-country=United-States & race=White,3,0.2647039320999934
+brute_force,income=<=50K & native-country=United-States & sex=Female,3,0.2621842052914263
+brute_force,race=White & sex=Female,2,0.2617531993899609
+brute_force,relationship=Not-in-family,1,0.2561501226709104
+brute_force,income=<=50K & marital-status=Never-married & workclass=Private,3,0.2554870366686559
+brute_force,education=HS-grad & workclass=Private,2,0.25455871626549964
+brute_force,education=HS-grad & income=<=50K & native-country=United-States,3,0.2542271732643724
+brute_force,income=<=50K & marital-status=Married-civ-spouse,2,0.25416086466414695
+brute_force,sex=Female & workclass=Private,2,0.25336516146144156
+brute_force,race=White & relationship=Husband & workclass=Private,3,0.2529010012598634
+brute_force,native-country=United-States & relationship=Husband & workclass=Private,3,0.2528678469597507
+brute_force,income=<=50K & marital-status=Never-married & race=White,3,0.25270207545918705
+brute_force,income=>50K,1,0.24892248524633645
+brute_force,marital-status=Never-married & native-country=United-States & race=White,3,0.2482925535441947
+brute_force,native-country=United-States & race=White & sex=Female,3,0.24434719183078046
+brute_force,marital-status=Never-married & native-country=United-States & workclass=Private,3,0.241031761819508
+brute_force,education=HS-grad & native-country=United-States & workclass=Private,3,0.2369869372057556
+brute_force,native-country=United-States & relationship=Not-in-family,2,0.23639015980372655
+brute_force,income=>50K & native-country=United-States,2,0.23191432928850872
+brute_force,native-country=United-States & sex=Female & workclass=Private,3,0.2296266825807307
+brute_force,income=<=50K & race=White & sex=Female,3,0.22956037398050527
+brute_force,income=<=50K & sex=Female & workclass=Private,3,0.22946091108016708
+brute_force,education=HS-grad & income=<=50K & race=White,3,0.2291956766792653
+brute_force,income=<=50K & relationship=Not-in-family,2,0.22886413367813804
+brute_force,income=<=50K & marital-status=Married-civ-spouse & sex=Male,3,0.22830051057622175
+brute_force,income=<=50K & marital-status=Married-civ-spouse & native-country=United-States,3,0.2267422584709237
+brute_force,income=>50K & race=White,2,0.2267422584709237
+brute_force,income=<=50K & marital-status=Married-civ-spouse & race=White,3,0.22534977786618923
+brute_force,income=<=50K & relationship=Husband,2,0.22491877196472382
+brute_force,income=<=50K & relationship=Husband & sex=Male,3,0.2248856176646111
+brute_force,income=<=50K & marital-status=Married-civ-spouse & relationship=Husband,3,0.2247530004641602
+brute_force,education=HS-grad & sex=Male,2,0.2232610569590876
+brute_force,marital-status=Never-married & race=White & workclass=Private,3,0.22173595915390226
+brute_force,education=Some-college,1,0.221404416152775
+brute_force,race=White & relationship=Not-in-family,2,0.22133810755254957
+brute_force,education=HS-grad & income=<=50K & workclass=Private,3,0.21772428884026257
+brute_force,education=HS-grad & race=White & workclass=Private,3,0.21726012863868444
+brute_force,income=>50K & native-country=United-States & race=White,3,0.2167959684371063
+brute_force,income=>50K & marital-status=Married-civ-spouse,2,0.21215436642132485
+brute_force,income=>50K & sex=Male,2,0.21205490352098666
+brute_force,income=<=50K & native-country=United-States & relationship=Not-in-family,3,0.2106292686161395
+brute_force,education=HS-grad & native-country=United-States & sex=Male,3,0.2099330283137723
+brute_force,native-country=United-States & race=White & relationship=Not-in-family,3,0.2081758504077979
+brute_force,education=Some-college & native-country=United-States,2,0.2075459187056561
+brute_force,race=White & sex=Female & workclass=Private,3,0.20598766660035805
+brute_force,income=<=50K & native-country=United-States & relationship=Husband,3,0.20257277368874743
+brute_force,income=<=50K & race=White & relationship=Husband,3,0.20214176778728202
+brute_force,income=>50K & native-country=United-States & sex=Male,3,0.1979643259730787
+brute_force,income=>50K & marital-status=Married-civ-spouse & native-country=United-States,3,0.197566474371726
+brute_force,income=<=50K & race=White & relationship=Not-in-family,3,0.19680392546913333
+brute_force,education=HS-grad & race=White & sex=Male,3,0.19637291956766792
+brute_force,relationship=Not-in-family & workclass=Private,2,0.19557721636496253
+brute_force,income=>50K & race=White & sex=Male,3,0.19454943306146807
+brute_force,income=>50K & marital-status=Married-civ-spouse & race=White,3,0.19425104436045354
+brute_force,education=Some-college & race=White,2,0.18914528214309395
+brute_force,income=>50K & marital-status=Married-civ-spouse & sex=Male,3,0.1889463563424176
+brute_force,income=>50K & relationship=Husband & sex=Male,3,0.18828327034016312
+brute_force,income=>50K & relationship=Husband,2,0.18828327034016312
+brute_force,income=>50K & marital-status=Married-civ-spouse & relationship=Husband,3,0.18815065313971222
+brute_force,education=Some-college & native-country=United-States & race=White,3,0.1807240899144619
+brute_force,marital-status=Never-married & sex=Male,2,0.1794973808102911
+brute_force,income=<=50K & marital-status=Married-civ-spouse & workclass=Private,3,0.17913268350905112
+brute_force,native-country=United-States & relationship=Not-in-family & workclass=Private,3,0.17893375770837477
+brute_force,income=<=50K & relationship=Not-in-family & workclass=Private,3,0.17714342550228765
+brute_force,education=Some-college & income=<=50K,2,0.17711027120217493
+brute_force,education=HS-grad & income=<=50K & sex=Male,3,0.17671241960082223
+brute_force,income=>50K & native-country=United-States & relationship=Husband,3,0.1758835620980041
+brute_force,income=>50K & race=White & relationship=Husband,3,0.17326437238909886
+brute_force,race=White & relationship=Not-in-family & workclass=Private,3,0.1700815595782773
+brute_force,income=<=50K & marital-status=Never-married & sex=Male,3,0.16931901067568464
+brute_force,education=HS-grad & sex=Male & workclass=Private,3,0.16865592467343016
+brute_force,education=Bachelors,1,0.16723028976858298
+brute_force,education=Some-college & workclass=Private,2,0.16630196936542668
+brute_force,education=Some-college & income=<=50K & native-country=United-States,3,0.16553942046283404
+brute_force,marital-status=Never-married & native-country=United-States & sex=Male,3,0.16245607055235065
+brute_force,income=>50K & workclass=Private,2,0.16166036734964526
+brute_force,income=<=50K & relationship=Husband & workclass=Private,3,0.15668722233273655
+brute_force,education=Some-college & native-country=United-States & workclass=Private,3,0.15509581592732577
+brute_force,education=Bachelors & native-country=United-States,2,0.1531065579205623
+brute_force,marital-status=Never-married & race=White & sex=Male,3,0.1518798488163915
+brute_force,education=HS-grad & marital-status=Married-civ-spouse,2,0.15154830581526424
+brute_force,income=>50K & native-country=United-States & workclass=Private,3,0.1505536768118825
+brute_force,education=Some-college & income=<=50K & race=White,3,0.14896227040647173
+brute_force,income=>50K & race=White & workclass=Private,3,0.14810025860354087
+brute_force,relationship=Own-child,1,0.14806710430342815
+brute_force,education=Bachelors & race=White,2,0.1474703269013991
+brute_force,marital-status=Never-married & relationship=Not-in-family,2,0.1474703269013991
+brute_force,marital-status=Never-married & sex=Male & workclass=Private,3,0.14737086400106095
+brute_force,income=<=50K & relationship=Own-child,2,0.14594522909621377
+brute_force,marital-status=Never-married & sex=Female,2,0.14296134208606856
+brute_force,education=Some-college & race=White & workclass=Private,3,0.1427624162853922
+brute_force,education=HS-grad & marital-status=Married-civ-spouse & native-country=United-States,3,0.1423314103839268
+brute_force,education=Bachelors & native-country=United-States & race=White,3,0.14067369537829055
+brute_force,marital-status=Divorced,1,0.13971222067502154
+brute_force,native-country=United-States & relationship=Own-child,2,0.13878390027186527
+brute_force,education=Some-college & sex=Male,2,0.1382865857701744
+brute_force,relationship=Not-in-family & sex=Male,2,0.1379218884689344
+brute_force,income=>50K & sex=Male & workclass=Private,3,0.13775611696837078
+brute_force,income=<=50K & marital-status=Never-married & sex=Female,3,0.13755719116769444
+brute_force,income=>50K & marital-status=Married-civ-spouse & workclass=Private,3,0.137490882567469
+brute_force,income=<=50K & native-country=United-States & relationship=Own-child,3,0.13686095086532724
+brute_force,education=HS-grad & marital-status=Married-civ-spouse & race=White,3,0.13623101916318547
+brute_force,education=Some-college & income=<=50K & workclass=Private,3,0.13609840196273457
+brute_force,education=HS-grad & marital-status=Married-civ-spouse & sex=Male,3,0.13560108746104368
+brute_force,marital-status=Never-married & native-country=United-States & relationship=Not-in-family,3,0.13550162456070552
+brute_force,education=HS-grad & relationship=Husband,2,0.1345401498574365
+brute_force,education=HS-grad & relationship=Husband & sex=Male,3,0.1345069955573238
+brute_force,education=HS-grad & marital-status=Married-civ-spouse & relationship=Husband,3,0.13437437835687288
+brute_force,income=<=50K & marital-status=Never-married & relationship=Not-in-family,3,0.1339765267555202
+brute_force,occupation=Prof-specialty,1,0.13387706385518203
+brute_force,occupation=Craft-repair,1,0.1336118294542802
+brute_force,marital-status=Divorced & native-country=United-States,2,0.1323851203501094
+brute_force,occupation=Exec-managerial,1,0.1323519660499967
+brute_force,marital-status=Never-married & native-country=United-States & sex=Female,3,0.1318214972481931
+brute_force,marital-status=Never-married & relationship=Own-child,2,0.13026324514289503
+brute_force,education=Some-college & native-country=United-States & sex=Male,3,0.12976593064120417
+brute_force,income=<=50K & marital-status=Never-married & relationship=Own-child,3,0.12916915323917513
+brute_force,marital-status=Never-married & race=White & relationship=Not-in-family,3,0.12734566673297526
+brute_force,education=HS-grad & native-country=United-States & relationship=Husband,3,0.1271467409322989
+brute_force,relationship=Own-child & workclass=Private,2,0.12651680923015715
+brute_force,occupation=Craft-repair & sex=Male,2,0.1264505006299317
+brute_force,native-country=United-States & relationship=Not-in-family & sex=Male,3,0.12605264902857902
+brute_force,income=<=50K & relationship=Own-child & workclass=Private,3,0.12499171142497181
+brute_force,race=White & relationship=Own-child,2,0.1248259399244082
+brute_force,income=<=50K & marital-status=Divorced,2,0.12472647702407003
+brute_force,native-country=United-States & occupation=Exec-managerial,2,0.12383131092102646
+brute_force,occupation=Adm-clerical,1,0.12336715071944832
+brute_force,income=<=50K & race=White & relationship=Own-child,3,0.12293614481798289
+brute_force,marital-status=Never-married & native-country=United-States & relationship=Own-child,3,0.12257144751674293
+brute_force,native-country=United-States & occupation=Prof-specialty,2,0.12243883031629202
+brute_force,income=>50K & relationship=Husband & workclass=Private,3,0.12217359591539023
+brute_force,native-country=United-States & occupation=Craft-repair,2,0.12217359591539023
+brute_force,education=HS-grad & race=White & relationship=Husband,3,0.12204097871493932
+brute_force,education=Some-college & race=White & sex=Male,3,0.12194151581460115
+brute_force,occupation=Craft-repair & race=White,2,0.12081426961076852
+brute_force,marital-status=Divorced & race=White,2,0.11995225780783768
+brute_force,income=<=50K & relationship=Not-in-family & sex=Male,3,0.11975333200716133
+brute_force,race=White & relationship=Not-in-family & sex=Male,3,0.11925601750547046
+brute_force,occupation=Exec-managerial & race=White,2,0.11918970890524501
+brute_force,native-country=United-States & race=White & relationship=Own-child,3,0.11905709170479412
+brute_force,occupation=Sales,1,0.11882501160400503
+brute_force,marital-status=Never-married & sex=Female & workclass=Private,3,0.11869239440355414
+brute_force,occupation=Prof-specialty & race=White,2,0.11852662290299051
+brute_force,native-country=United-States & relationship=Own-child & workclass=Private,3,0.11842716000265234
+brute_force,relationship=Not-in-family & sex=Female,2,0.11822823420197599
+brute_force,income=<=50K & marital-status=Divorced & native-country=United-States,3,0.11816192560175055
+brute_force,education=Bachelors & sex=Male,2,0.11676944499701611
+brute_force,marital-status=Never-married & relationship=Not-in-family & workclass=Private,3,0.11663682779656522
+brute_force,native-country=United-States & occupation=Craft-repair & sex=Male,3,0.1156753530932962
+brute_force,occupation=Craft-repair & race=White & sex=Male,3,0.11524434719183078
+brute_force,marital-status=Divorced & native-country=United-States & race=White,3,0.11491280419070353
+brute_force,marital-status=Never-married & race=White & sex=Female,3,0.11454810688946357
+brute_force,education=Bachelors & workclass=Private,2,0.11454810688946357
+brute_force,native-country=United-States & occupation=Adm-clerical,2,0.11434918108878722
+brute_force,native-country=United-States & occupation=Exec-managerial & race=White,3,0.1141834095882236
+brute_force,native-country=United-States & occupation=Prof-specialty & race=White,3,0.11249254028247464
+brute_force,native-country=United-States & occupation=Craft-repair & race=White,3,0.11242623168224919
+brute_force,marital-status=Never-married & relationship=Own-child & workclass=Private,3,0.11216099728134739
+brute_force,native-country=United-States & occupation=Sales,2,0.11153106557920563
+brute_force,native-country=United-States & relationship=Not-in-family & sex=Female,3,0.11033751077514754
+brute_force,marital-status=Never-married & race=White & relationship=Own-child,3,0.11030435647503481
+brute_force,income=<=50K & relationship=Not-in-family & sex=Female,3,0.10911080167097673
+brute_force,education=HS-grad & marital-status=Married-civ-spouse & workclass=Private,3,0.10871295006962403
+brute_force,education=Bachelors & native-country=United-States & sex=Male,3,0.10748624096545321
+brute_force,race=White & relationship=Own-child & workclass=Private,3,0.10715469796432597
+brute_force,income=<=50K & occupation=Adm-clerical,2,0.10685630926331145
+brute_force,income=<=50K & marital-status=Divorced & race=White,3,0.10672369206286056
+brute_force,occupation=Other-service,1,0.10649161196207148
+brute_force,relationship=Unmarried,1,0.10649161196207148
+brute_force,occupation=Sales & race=White,2,0.10582852595981698
+brute_force,education=Bachelors & race=White & sex=Male,3,0.10562960015914064
+brute_force,occupation=Craft-repair & workclass=Private,2,0.10430342815463166
+brute_force,education=Bachelors & native-country=United-States & workclass=Private,3,0.10417081095418075
+brute_force,relationship=Not-in-family & sex=Male & workclass=Private,3,0.10417081095418075
+brute_force,income=<=50K & occupation=Craft-repair,2,0.10350772495192627
+brute_force,education=HS-grad & income=<=50K & marital-status=Married-civ-spouse,3,0.10317618195079901
+brute_force,education=HS-grad & sex=Female,2,0.10297725615012267
+brute_force,marital-status=Divorced & workclass=Private,2,0.10254625024865725
+brute_force,income=<=50K & occupation=Other-service,2,0.10211524434719182
+brute_force,race=White & relationship=Not-in-family & sex=Female,3,0.1020820900470791
+brute_force,education=Bachelors & race=White & workclass=Private,3,0.10175054704595186
+brute_force,native-country=United-States & occupation=Sales & race=White,3,0.10161792984550096
+brute_force,occupation=Adm-clerical & race=White,2,0.10122007824414826
+brute_force,education=Some-college & sex=Male & workclass=Private,3,0.10025860354087925
+brute_force,education=Some-college & income=<=50K & sex=Male,3,0.10012598634042835

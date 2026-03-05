@@ -1,0 +1,124 @@
+algorithm,pattern,length,support
+apriori,native-country=United-States,1,0.911875870300378
+apriori,race=White,1,0.8597904648232876
+apriori,native-country=United-States & race=White,2,0.8029308401299649
+apriori,income=<=50K,1,0.7510775147536636
+apriori,workclass=Private,1,0.7388767323121809
+apriori,income=<=50K & native-country=United-States,2,0.6799615410118692
+apriori,sex=Male,1,0.6756846362973278
+apriori,native-country=United-States & workclass=Private,2,0.6675618327697103
+apriori,race=White & workclass=Private,2,0.6344738412572111
+apriori,income=<=50K & race=White,2,0.6330482063523639
+apriori,native-country=United-States & sex=Male,2,0.6157416616935216
+apriori,race=White & sex=Male,2,0.5980372654333267
+apriori,income=<=50K & workclass=Private,2,0.5772163649625356
+apriori,native-country=United-States & race=White & sex=Male,3,0.5585836482991844
+apriori,sex=Male & workclass=Private,2,0.4855115708507393
+apriori,marital-status=Married-civ-spouse,1,0.4663152310854718
+apriori,income=<=50K & sex=Male,2,0.4636297327763411
+apriori,marital-status=Married-civ-spouse & native-country=United-States,2,0.4243087328426497
+apriori,marital-status=Married-civ-spouse & race=White,2,0.4196008222266428
+apriori,marital-status=Married-civ-spouse & sex=Male,2,0.4172468669186393
+apriori,relationship=Husband,1,0.41320204230488694
+apriori,relationship=Husband & sex=Male,2,0.4131688880047742
+apriori,marital-status=Married-civ-spouse & relationship=Husband,2,0.41290365360387243
+apriori,marital-status=Married-civ-spouse & relationship=Husband & sex=Male,3,0.4128704993037597
+apriori,income=<=50K & race=White & sex=Male,3,0.40348783237185865
+apriori,native-country=United-States & relationship=Husband,2,0.37845633578675153
+apriori,race=White & relationship=Husband,2,0.37540614017638085
+apriori,education=HS-grad,1,0.32623831310921025
+apriori,sex=Female,1,0.3243153637026722
+apriori,marital-status=Never-married,1,0.3224587228963597
+apriori,marital-status=Married-civ-spouse & workclass=Private,2,0.31662356607652015
+apriori,income=<=50K & marital-status=Never-married,2,0.3068762018433791
+apriori,education=HS-grad & native-country=United-States,2,0.305317949738081
+apriori,native-country=United-States & sex=Female,2,0.2961342086068563
+apriori,marital-status=Never-married & native-country=United-States,2,0.2942775678005437
+apriori,income=<=50K & sex=Female,2,0.28744778197732246
+apriori,relationship=Husband & workclass=Private,2,0.2788608182481268
+apriori,education=HS-grad & race=White,2,0.27852927524699955
+apriori,education=HS-grad & income=<=50K,2,0.2726278098269346
+apriori,marital-status=Never-married & race=White,2,0.26642795570585504
+apriori,marital-status=Never-married & workclass=Private,2,0.2660632584046151
+apriori,race=White & sex=Female,2,0.2617531993899609
+apriori,relationship=Not-in-family,1,0.2561501226709104
+apriori,education=HS-grad & workclass=Private,2,0.25455871626549964
+apriori,income=<=50K & marital-status=Married-civ-spouse,2,0.25416086466414695
+apriori,sex=Female & workclass=Private,2,0.25336516146144156
+apriori,income=>50K,1,0.24892248524633645
+apriori,native-country=United-States & relationship=Not-in-family,2,0.23639015980372655
+apriori,income=>50K & native-country=United-States,2,0.23191432928850872
+apriori,income=<=50K & relationship=Not-in-family,2,0.22886413367813804
+apriori,income=>50K & race=White,2,0.2267422584709237
+apriori,income=<=50K & relationship=Husband,2,0.22491877196472382
+apriori,income=<=50K & marital-status=Married-civ-spouse & relationship=Husband,3,0.2247530004641602
+apriori,education=HS-grad & sex=Male,2,0.2232610569590876
+apriori,education=Some-college,1,0.221404416152775
+apriori,race=White & relationship=Not-in-family,2,0.22133810755254957
+apriori,income=>50K & native-country=United-States & race=White,3,0.2167959684371063
+apriori,income=>50K & marital-status=Married-civ-spouse,2,0.21215436642132485
+apriori,income=>50K & sex=Male,2,0.21205490352098666
+apriori,education=Some-college & native-country=United-States,2,0.2075459187056561
+apriori,income=>50K & native-country=United-States & sex=Male,3,0.1979643259730787
+apriori,relationship=Not-in-family & workclass=Private,2,0.19557721636496253
+apriori,income=>50K & race=White & sex=Male,3,0.19454943306146807
+apriori,education=Some-college & race=White,2,0.18914528214309395
+apriori,income=>50K & relationship=Husband,2,0.18828327034016312
+apriori,marital-status=Never-married & sex=Male,2,0.1794973808102911
+apriori,education=Some-college & income=<=50K,2,0.17711027120217493
+apriori,education=Bachelors,1,0.16723028976858298
+apriori,education=Some-college & workclass=Private,2,0.16630196936542668
+apriori,income=>50K & workclass=Private,2,0.16166036734964526
+apriori,education=Some-college & native-country=United-States & workclass=Private,3,0.15509581592732577
+apriori,education=Bachelors & native-country=United-States,2,0.1531065579205623
+apriori,marital-status=Never-married & race=White & sex=Male,3,0.1518798488163915
+apriori,education=HS-grad & marital-status=Married-civ-spouse,2,0.15154830581526424
+apriori,education=Some-college & income=<=50K & race=White,3,0.14896227040647173
+apriori,relationship=Own-child,1,0.14806710430342815
+apriori,marital-status=Never-married & relationship=Not-in-family,2,0.1474703269013991
+apriori,education=Bachelors & race=White,2,0.1474703269013991
+apriori,income=<=50K & relationship=Own-child,2,0.14594522909621377
+apriori,marital-status=Never-married & sex=Female,2,0.14296134208606856
+apriori,marital-status=Divorced,1,0.13971222067502154
+apriori,native-country=United-States & relationship=Own-child,2,0.13878390027186527
+apriori,education=Some-college & sex=Male,2,0.1382865857701744
+apriori,relationship=Not-in-family & sex=Male,2,0.1379218884689344
+apriori,education=HS-grad & relationship=Husband,2,0.1345401498574365
+apriori,occupation=Prof-specialty,1,0.13387706385518203
+apriori,occupation=Craft-repair,1,0.1336118294542802
+apriori,marital-status=Divorced & native-country=United-States,2,0.1323851203501094
+apriori,occupation=Exec-managerial,1,0.1323519660499967
+apriori,marital-status=Never-married & relationship=Own-child,2,0.13026324514289503
+apriori,education=Some-college & native-country=United-States & sex=Male,3,0.12976593064120417
+apriori,relationship=Own-child & workclass=Private,2,0.12651680923015715
+apriori,occupation=Craft-repair & sex=Male,2,0.1264505006299317
+apriori,race=White & relationship=Own-child,2,0.1248259399244082
+apriori,income=<=50K & marital-status=Divorced,2,0.12472647702407003
+apriori,native-country=United-States & occupation=Exec-managerial,2,0.12383131092102646
+apriori,occupation=Adm-clerical,1,0.12336715071944832
+apriori,native-country=United-States & occupation=Prof-specialty,2,0.12243883031629202
+apriori,native-country=United-States & occupation=Craft-repair,2,0.12217359591539023
+apriori,occupation=Craft-repair & race=White,2,0.12081426961076852
+apriori,marital-status=Divorced & race=White,2,0.11995225780783768
+apriori,occupation=Exec-managerial & race=White,2,0.11918970890524501
+apriori,occupation=Sales,1,0.11882501160400503
+apriori,marital-status=Never-married & sex=Female & workclass=Private,3,0.11869239440355414
+apriori,occupation=Prof-specialty & race=White,2,0.11852662290299051
+apriori,relationship=Not-in-family & sex=Female,2,0.11822823420197599
+apriori,education=Bachelors & sex=Male,2,0.11676944499701611
+apriori,occupation=Craft-repair & race=White & sex=Male,3,0.11524434719183078
+apriori,education=Bachelors & workclass=Private,2,0.11454810688946357
+apriori,native-country=United-States & occupation=Adm-clerical,2,0.11434918108878722
+apriori,native-country=United-States & occupation=Sales,2,0.11153106557920563
+apriori,income=<=50K & occupation=Adm-clerical,2,0.10685630926331145
+apriori,occupation=Other-service,1,0.10649161196207148
+apriori,relationship=Unmarried,1,0.10649161196207148
+apriori,occupation=Sales & race=White,2,0.10582852595981698
+apriori,education=Bachelors & race=White & sex=Male,3,0.10562960015914064
+apriori,occupation=Craft-repair & workclass=Private,2,0.10430342815463166
+apriori,income=<=50K & occupation=Craft-repair,2,0.10350772495192627
+apriori,education=HS-grad & sex=Female,2,0.10297725615012267
+apriori,marital-status=Divorced & workclass=Private,2,0.10254625024865725
+apriori,income=<=50K & occupation=Other-service,2,0.10211524434719182
+apriori,occupation=Adm-clerical & race=White,2,0.10122007824414826
+apriori,education=Some-college & sex=Male & workclass=Private,3,0.10025860354087925
